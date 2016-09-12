@@ -16,6 +16,9 @@
 <li{% if active == "settings" %} class="active"{% endif %}>
 <a title="settings" href="{% url 'app-settings' app.name %}">settings</a>
 </li>
+<li{% if active == "autoscale" %} class="active"{% endif %}>
+<a title="autoscale" href="{% url 'app-info' app.name %}">autoscale</a>
+</li>
 </ul>
 </div>
 </div>
